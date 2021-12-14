@@ -5,7 +5,7 @@ repository: https://github.com/apps-auth/modern_form_esys_flutter_share
 homepage: https://github.com/apps-auth/modern_form_esys_flutter_share
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -16,8 +16,5 @@ dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        package: de.esys.esysfluttershare
-        pluginClass: EsysFlutterSharePlugin
-      ios:
-        pluginClass: SwiftEsysFlutterSharePlugin
+      androidPackage: de.esys.esysfluttershare
+      pluginClass: EsysFlutterSharePlugin
